@@ -41,11 +41,19 @@ export default function OperationalComparison() {
 
           </div>
 
-          <img
-            src={photoPerson}
-            alt="Persona que tiene lentes"
-            className="w-full h-56 object-cover border-b border-[#D8D6CF]"
-          />
+        <div className="px-6 pt-6">
+
+            <p className="text-center text-lg font-display font-semibold text-[#2F3437] mb-4">
+                Una persona que <span className="text-[#5A7D4D]">tiene</span> lentes
+            </p>
+
+            <img
+                src={photoPerson}
+                alt="Persona que tiene lentes"
+                className="mx-auto max-h-80 w-auto rounded-lg border border-[#D8D6CF]"
+            />
+
+        </div>
 
           <div className="p-6">
 
@@ -125,11 +133,19 @@ export default function OperationalComparison() {
 
           </div>
 
-          <img
-            src={sketchPerson}
-            alt="Persona que tenga lentes"
-            className="w-full h-56 object-cover border-b border-[#D8D6CF]"
-          />
+          <div className="px-6 pt-6">
+
+            <p className="text-center text-lg font-display font-semibold text-[#2F3437] mb-4">
+                Una persona que <span className="text-[#C97C5D]">tenga</span> lentes
+            </p>
+
+            <img
+                src={sketchPerson}
+                alt="Persona que tenga lentes"
+                className="mx-auto max-h-80 w-auto rounded-lg border border-[#D8D6CF]"
+            />
+
+            </div>
 
           <div className="p-6">
 
