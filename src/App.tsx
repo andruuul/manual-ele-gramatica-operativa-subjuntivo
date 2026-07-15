@@ -13,7 +13,7 @@ import Activity4_Correo from './components/Activity4_Correo';
 import Activity5_Organigrama from './components/Activity5_Organigrama';
 import Activity6_VerdaderoFalso from './components/Activity6_VerdaderoFalso';
 import Activity7_Chat from './components/Activity7_Chat';
-import Activity8_Espejo from './components/Activity8_Espejo';
+import Activity8_Interpretar from './components/Activity8_Interpretar';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState<string>('introduccion');
@@ -31,7 +31,7 @@ export default function App() {
     { id: 'actividad-5', label: '05 • Organigrama del equipo', icon: '👥' },
     { id: 'actividad-6', label: '06 • Verdadero o Falso', icon: '❓' },
     { id: 'actividad-7', label: '07 • La Expansión (Chat)', icon: '💬' },
-    { id: 'actividad-8', label: '08 • El Espejo del Significado', icon: '🪞' },
+    { id: 'actividad-8', label: '08 • Interpretar el contexto', icon: '🪞' },
   ];
 
   // Monitor scroll in the scrollable content container
@@ -301,7 +301,7 @@ export default function App() {
               <div id="actividad-1" className="scroll-mt-6"><Activity1_Descubre /></div>
               <div id="actividad-2" className="scroll-mt-6"><Activity2_Algoritmo /></div>
               <div id="actividad-3" className="scroll-mt-6"><Activity3_Input /></div>
-              <div className="my-12"><OperationalComparison /></div>
+              <div id="modelo-operativo" className="my-12"><OperationalComparison /></div>
               <div id="actividad-4" className="scroll-mt-6"><Activity4_Correo /></div>
               <div id="actividad-5" className="scroll-mt-6"><Activity5_Organigrama /></div>
             </div>
@@ -317,7 +317,7 @@ export default function App() {
 
               <div id="actividad-6" className="scroll-mt-6"><Activity6_VerdaderoFalso /></div>
               <div id="actividad-7" className="scroll-mt-6"><Activity7_Chat /></div>
-              <div id="actividad-8" className="scroll-mt-6"><Activity8_Espejo /></div>
+              <div id="actividad-8" className="scroll-mt-6"><Activity8_Interpretar /></div>
             </div>
 
           </div>

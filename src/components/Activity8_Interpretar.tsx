@@ -17,7 +17,7 @@ interface ScenarioCard {
   explanation: string;
 }
 
-export default function Activity8_Espejo() {
+export default function Activity8_Interpretar() {
   const [answers, setAnswers] = useState<Record<number, boolean | null>>({
     1: null,
     2: null,
