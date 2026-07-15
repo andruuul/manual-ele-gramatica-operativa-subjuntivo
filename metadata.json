@@ -1,0 +1,6 @@
+{
+  "name": "Manual Interactivo de ELE - Gramática Operativa",
+  "description": "Manual digital interactivo para estudiantes de ELE (nivel B1) sobre Indicativo y Subjuntivo basados en la Gramática Operativa de José Plácido Ruiz Campillo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
