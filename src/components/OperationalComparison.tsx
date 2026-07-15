@@ -44,7 +44,7 @@ export default function OperationalComparison() {
         <div className="px-6 pt-6">
 
             <p className="text-center text-lg font-display font-semibold text-[#2F3437] mb-4">
-                Una persona que <span className="text-[#5A7D4D]">tiene</span> lentes
+                "... una persona que <span className="text-[#5A7D4D]">tiene</span> lentes"
             </p>
 
             <img
@@ -136,7 +136,7 @@ export default function OperationalComparison() {
           <div className="px-6 pt-6">
 
             <p className="text-center text-lg font-display font-semibold text-[#2F3437] mb-4">
-                Una persona que <span className="text-[#C97C5D]">tenga</span> lentes
+                "... una persona que <span className="text-[#C97C5D]">tenga</span> lentes"
             </p>
 
             <img
