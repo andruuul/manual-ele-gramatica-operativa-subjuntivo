@@ -102,6 +102,8 @@ export default function Activity1_Descubre() {
           value={answers.p4}
           onChange={(val) => handleAnswerChange('p4', val)}
           placeholder="E.g., En la tarjeta X, porque..."
+        />
+        
       </div>
     </ActivityCard>
   );
