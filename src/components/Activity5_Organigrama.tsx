@@ -65,7 +65,7 @@ export default function Activity5_Organigrama() {
             <Users size={16} strokeWidth={1.5} className="text-[#7A9E6E]" />
             <div>
               <h3 className="font-display font-bold text-sm md:text-base leading-none">1. Equipo actual</h3>
-              <span className="text-[9px] font-mono font-bold text-[#7A9E6E] bg-white/25 border border-white/30 px-1.5 py-0.5 rounded block mt-1">SER REAL / DECLARADO (Indicativo)</span>
+              <span className="text-[9px] font-mono font-bold text-[#E5C867] bg-white/20 border border-white/25 px-1.5 py-0.5 rounded block mt-1">SER REAL / DECLARADO (Indicativo)</span>
             </div>
           </div>
           <div className="p-4 space-y-3">
