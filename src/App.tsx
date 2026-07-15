@@ -256,26 +256,30 @@ export default function App() {
                   {/* Indicativo */}
                   <div className="p-5 rounded-lg bg-white border border-[#D8D6CF] border-l-8 border-[#5A7D4D] text-left transition-all">
                     <span className="text-[10px] uppercase font-mono font-bold text-[#5A7D4D] bg-[#F2F1EC] px-2 py-0.5 rounded border border-[#D8D6CF]">
-                      Indicativo
+                      📸 Indicativo = Una foto
                     </span>
-                    <p className="text-xl font-display font-black text-[#5A7D4D] mt-3 leading-tight">
-                      Declaro
+
+                    <p className="text-lg font-display font-bold text-[#5A7D4D] leading-tight">
+                      Puedes sacar una foto porque el objeto ya está ahí y puedes identificarlo.
                     </p>
-                    <p className="text-xs md:text-sm text-gray-600 mt-1.5 italic font-medium">
-                      "El hablante declara una entidad identificada."
+
+                    <p className="text-sm text-gray-600 mt-3">
+                      Hablas de algo que conoces, puedes señalar y reconoces como existente para ti.
                     </p>
                   </div>
 
                   {/* Subjuntivo */}
                   <div className="p-5 rounded-lg bg-[#FAF5E7] border border-[#C97C5D]/20 border-l-8 border-[#C97C5D] text-left transition-all">
                     <span className="text-[10px] uppercase font-mono font-bold text-[#C97C5D] bg-white px-2 py-0.5 rounded border border-[#C97C5D]/20">
-                      Subjuntivo
+                      ✏️ Subjuntivo = Un sketch
                     </span>
-                    <p className="text-xl font-display font-black text-[#5A7D4D] mt-3 leading-tight">
-                      No declaro
+
+                    <p className="text-lg font-display font-bold text-[#C97C5D] leading-tight">
+                      Todavía no puedes sacar una foto porque el objeto solo existe como una idea en tu mente.
                     </p>
-                    <p className="text-xs md:text-sm text-gray-600 mt-1.5 italic font-medium">
-                      "El hablante no declara esa entidad; presenta un perfil ideal."
+
+                    <p className="text-sm text-gray-600 mt-3">
+                      Por eso haces un sketch de lo que imaginas o esperas encontrar.
                     </p>
                   </div>
 
