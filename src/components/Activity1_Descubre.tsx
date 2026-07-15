@@ -85,7 +85,7 @@ export default function Activity1_Descubre() {
           question="2. ¿En cuál solamente puedes describir un perfil o un rol ideal?"
           value={answers.p2}
           onChange={(val) => handleAnswerChange('p2', val)}
-          placeholder="E.g., En la tarjeta B, ya que todavía no conozco a nadie con esas características..."
+          placeholder="E.g., En la tarjeta X, porque..."
         />
 
         <QuestionInput
@@ -93,7 +93,7 @@ export default function Activity1_Descubre() {
           question="3. Si tuvieras que tomar una decisión de gestión, ¿qué acción concreta realizarías en la situación A y cuál en la B?"
           value={answers.p3}
           onChange={(val) => handleAnswerChange('p3', val)}
-          placeholder="E.g., En la A, le asigno el trabajo directamente. En la B, publico una vacante en LinkedIn..."
+          placeholder="E.g., En la tarjeta X, porque..."
         />
 
         <QuestionInput
@@ -101,8 +101,7 @@ export default function Activity1_Descubre() {
           question="4. Sin recurrir a explicaciones de 'realidad' o 'duda', ¿qué diferencia de significado operativo percibes entre ambas?"
           value={answers.p4}
           onChange={(val) => handleAnswerChange('p4', val)}
-          placeholder="E.g., En A declaro un hecho cierto e identificado. En B presento un deseo o una necesidad de algo aún no identificado..."
-        />
+          placeholder="E.g., En la tarjeta X, porque..."
       </div>
     </ActivityCard>
   );

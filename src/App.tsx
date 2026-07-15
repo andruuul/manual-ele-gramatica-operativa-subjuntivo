@@ -8,6 +8,7 @@ import { BookOpen, Calendar, Clock, ChevronUp, ChevronDown, List, Settings, Info
 import Activity1_Descubre from './components/Activity1_Descubre';
 import Activity2_Algoritmo from './components/Activity2_Algoritmo';
 import Activity3_Input from './components/Activity3_Input';
+import OperationalComparison from './components/OperationalComparison';
 import Activity4_Correo from './components/Activity4_Correo';
 import Activity5_Organigrama from './components/Activity5_Organigrama';
 import Activity6_VerdaderoFalso from './components/Activity6_VerdaderoFalso';
@@ -21,10 +22,11 @@ export default function App() {
 
   // List of navigation items for high density sidebar
   const menuItems = [
-    { id: 'introduccion', label: '00 • Filosofía Operativa', icon: '⚡' },
+    { id: 'introduccion', label: 'Filosofía Operativa', icon: '⚡' },
     { id: 'actividad-1', label: '01 • Descubre la diferencia', icon: '🔍' },
-    { id: 'actividad-2', label: '02 • Algoritmo de la forma', icon: '⚙️' },
-    { id: 'actividad-3', label: '03 • Input estructurado', icon: '📝' },
+    { id: 'actividad-2', label: '02 • Conjugación', icon: '⚙️' },
+    { id: 'actividad-3', label: '03 • Explica', icon: '📝' },
+    { id: 'modelo-operativo', label: 'Foto vs. Sketch', icon: '📸'},
     { id: 'actividad-4', label: '04 • Correo profesional', icon: '✉️' },
     { id: 'actividad-5', label: '05 • Organigrama del equipo', icon: '👥' },
     { id: 'actividad-6', label: '06 • Verdadero o Falso', icon: '❓' },
@@ -299,6 +301,7 @@ export default function App() {
               <div id="actividad-1" className="scroll-mt-6"><Activity1_Descubre /></div>
               <div id="actividad-2" className="scroll-mt-6"><Activity2_Algoritmo /></div>
               <div id="actividad-3" className="scroll-mt-6"><Activity3_Input /></div>
+              <div className="my-12"><OperationalComparison /></div>
               <div id="actividad-4" className="scroll-mt-6"><Activity4_Correo /></div>
               <div id="actividad-5" className="scroll-mt-6"><Activity5_Organigrama /></div>
             </div>
