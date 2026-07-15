@@ -221,7 +221,7 @@ export default function App() {
                   Nivel B1
                 </span>
                 <span className="bg-[#FAF5E7] text-[#C97C5D] border border-[#C97C5D]/20 text-[10px] font-bold px-2.5 py-1 rounded flex items-center gap-1 font-mono">
-                  <Clock size={10} strokeWidth={1.5} /> 2 Sesiones (100 min)
+                  <Clock size={10} strokeWidth={1.5} /> 2 Sesiones (160 min)
                 </span>
                 <span className="bg-[#F2F1EC] text-[#2F3437] border border-[#D8D6CF]/60 text-[10px] font-bold px-2.5 py-1 rounded flex items-center gap-1 font-mono">
                   <BookOpen size={10} strokeWidth={1.5} /> ELE Corporativo
@@ -289,7 +289,7 @@ export default function App() {
                 <span className="text-xs font-mono text-[#5A7D4D] font-bold uppercase bg-[#F2F1EC] border border-[#D8D6CF]/60 px-2 py-0.5 rounded">
                   Sesión 1: El Diagnóstico
                 </span>
-                <span className="text-[10px] text-gray-400 font-mono">DURACIÓN: 50 MIN</span>
+                <span className="text-[10px] text-gray-400 font-mono">DURACIÓN: 110 MIN</span>
               </div>
 
               <div id="actividad-1" className="scroll-mt-6"><Activity1_Descubre /></div>
